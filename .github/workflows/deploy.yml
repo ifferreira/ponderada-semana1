@@ -16,7 +16,7 @@ jobs:
     defaults:
       run:
         shell: bash
-        working-directory: ./meu-website
+        working-directory: ./documentation/docusaurus-documentation
     steps:
       - uses: actions/checkout@v4
         with:
@@ -34,7 +34,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./meu-website/build
+          path: ./documentation/docusaurus-documentation/build
 
   deploy:
     name: Deploy to GitHub Pages
