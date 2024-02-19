@@ -1,8 +1,8 @@
 {
-    "label": "Sprints",
-    "position": 2,
+    "label": "Ponderadas",
+    "position": 1,
     "link": {
         "type": "generated-index",
-        "description": "This is a custom description"
+        "description": "Atividades Ponderadas"
     }
 }
